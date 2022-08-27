@@ -1,0 +1,176 @@
+body{
+  margin: 0;
+}
+
+.section-one,
+.footer{
+  background-color: #1F2937;
+  padding: 15px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-logo{
+  font-size: 24px;
+  font-weight: bolder;
+  color: #F9FAF8;
+}
+
+.link-container{
+  display: flex;
+  align-items: center;
+}
+
+.link{
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0 15px;
+}
+
+.hero{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero-header{
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bolder;
+}
+
+.hero-subtext{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.button{
+  text-decoration: none;
+  font-weight: bold;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.box{
+  height: 250px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-holder{
+  background-color: #6D747D;
+  color: #E5E7EB;
+  justify-content: center;
+}
+
+.button{
+  align-self: flex-start;
+}
+
+.section-two{
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.info-header{
+  font-size: 38px;
+  font-weight: bold;
+}
+
+.image-container{
+  display: flex;
+  gap: 100px;
+  width: min-content;
+}
+
+.img{
+  height: 100px;
+  width: 100px;
+  border: 2.5px solid #3882F6;
+  border-radius: 7.5px;
+}
+
+.image-box{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.img-subtext{
+  text-align: center;
+  font-size: 18px;
+}
+
+.section-three{
+  height: 400px;
+  background-color: #E5E7EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+.quote-container{
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote{
+  color: #1F2937;
+}
+
+.quote-by{
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.section-four{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-container{
+  background-color: #3882F6;
+  width: 800px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.action-button{
+  border: 2px solid #F9FAF8;
+  align-self: center;
+}
+
+.action-text{
+  color: white;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
